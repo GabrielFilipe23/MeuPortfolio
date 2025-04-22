@@ -203,6 +203,23 @@ footer {
   z-index: 0;
 }
 
+a.visualizar-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+a.visualizar-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+
 .hero-img {
   position: relative;
   z-index: 1;
